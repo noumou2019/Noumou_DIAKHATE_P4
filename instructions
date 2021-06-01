@@ -1,0 +1,8 @@
+Rename the main class to AnalyticsMain.java
+Cleaning the main class
+deletion of lines of code that is useless
+as well as the comments
+Rename the ReadySymptomDataFromFile class to ReadSymptomsFromFile
+Addition of new classes :
+CountSymptoms
+WriteSymptomsInFile
