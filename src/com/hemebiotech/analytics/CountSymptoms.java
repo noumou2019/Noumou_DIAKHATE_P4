@@ -7,14 +7,13 @@ import java.util.*;
  * Anything that will read symptom data from a source The important part is, the
  * return value from the operation, which is a list of strings, that may contain
  * many duplications. The implementation order the list.
- * 
+ * @param nameOfSymptoms
+ * @return counterSymptomsABC
  */
 public class CountSymptoms {
 	Map<String, Integer> counterSymptomsABC = new TreeMap<>();
 
-	TreeMap<String,Double> myMap = new TreeMap<String, Double>();
 	
-
 	public Map<String, Integer> getCounterSymptomsABC(List<String> nameOfSymptoms){
 
 		for(String string : nameOfSymptoms) 
@@ -27,7 +26,7 @@ public class CountSymptoms {
 			}
 		}
 		for(Map.Entry<String, Integer> entry : counterSymptomsABC.entrySet()) {
-			System.out.println(entry.getKey() + " : " + entry.getValue());
+			System.out.println(entry.getKey() + " :---> " + entry.getValue());
 		}
 		return counterSymptomsABC;
 		

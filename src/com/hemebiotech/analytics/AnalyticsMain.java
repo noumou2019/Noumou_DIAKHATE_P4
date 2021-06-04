@@ -3,6 +3,11 @@ package com.hemebiotech.analytics;
 import java.util.List;
 import java.util.Map;
 
+
+/**
+* @author Noumou DIAKHATE 
+*  
+*/
 public class AnalyticsMain {
 
 	public static void main(String args[]) throws Exception {

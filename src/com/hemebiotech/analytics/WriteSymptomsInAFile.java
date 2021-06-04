@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.Map;
 
 /**
- * Create a file "result.out" with all symptoms (no duplicate) with their
+ *  @return Create a file "result.out" with all symptoms (no duplicate) with their
  * Occurrence
  *
  */
